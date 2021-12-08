@@ -1,194 +1,194 @@
 # Program 1 - Number Sorter
-a = float(input("Input 1st Number: "))
-b = float(input("Input 2nd Number: "))
-c = float(input("Input 3rd Number: "))
-d = float(input("Input 4th Number: "))
-if a < b:
-    if b < c:
-        if c < d:
-            print(d,c,b,a)
+firstNumber = float(input("Input 1st Number: "))
+secondNumber = float(input("Input 2nd Number: "))
+thirdNumber = float(input("Input 3rd Number: "))
+fourthNumber = float(input("Input 4th Number: "))
+if firstNumber < secondNumber:
+    if secondNumber < thirdNumber:
+        if thirdNumber < fourthNumber:
+            print(fourthNumber,thirdNumber,secondNumber,firstNumber)
         else:
-            if a < b:
-                if b < d:
-                    if d < c:
-                        print(c,d,b,a) 
-if a < c:
-    if c < b:
-        if b < d:
-            print(d,b,c,a)
+            if firstNumber < secondNumber:
+                if secondNumber < fourthNumber:
+                    if fourthNumber < thirdNumber:
+                        print(thirdNumber,fourthNumber,secondNumber,firstNumber) 
+if firstNumber < thirdNumber:
+    if thirdNumber < secondNumber:
+        if secondNumber < fourthNumber:
+            print(fourthNumber,secondNumber,thirdNumber,firstNumber)
         else:
-            if a < d:
-                if d < c:
-                    if c < b:
-                        print(b,c,d,a)
-if a < d:
-    if d < b:
-        if b < c:
-            print(c,b,d,a)           
-if b < a:
-    if a < c:
-        if c < d:
-            print(d,c,a,b)
+            if firstNumber < fourthNumber:
+                if fourthNumber < thirdNumber:
+                    if thirdNumber < secondNumber:
+                        print(secondNumber,thirdNumber,fourthNumber,firstNumber)
+if firstNumber < fourthNumber:
+    if d < secondNumber:
+        if secondNumber < thirdNumber:
+            print(thirdNumber,secondNumber,fourthNumber,firstNumber)           
+if secondNumber < firstNumber:
+    if firstNumber < thirdNumber:
+        if thirdNumber < fourthNumber:
+            print(fourthNumber,thirdNumber,firstNumber,secondNumber)
         else:
-            if b < a:
-                if a < d:
-                    if d < c:
-                        print(c,d,a,b)
-if b < c:
-    if c < a:
-        if a < d:
-            print(d,a,c,b)
+            if secondNumber < firstNumber:
+                if firstNumber < fourthNumber:
+                    if fourthNumber < thirdNumber:
+                        print(thirdNumber,fourthNumber,firstNumber,secondNumber)
+if secondNumber < thirdNumber:
+    if thirdNumber < firstNumber:
+        if firstNumber < fourthNumber:
+            print(fourthNumber,firstNumber,thirdNumber,secondNumber)
         else:
-            if b < c:
-                if c < d:
-                    if d < a:
-                        print(a,d,b,c)
-if b < d:
-    if d < a:
-        if a < c:
-            print(c,a,d,b)
+            if secondNumber < thirdNumber:
+                if thirdNumber < fourthNumber:
+                    if fourthNumber < firstNumber:
+                        print(firstNumber,fourthNumber,secondNumber,thirdNumber)
+if secondNumber < fourthNumber:
+    if fourthNumber < firstNumber:
+        if firstNumber < thirdNumber:
+            print(thirdNumber,firstNumber,fourthNumber,secondNumber)
         else:
-            if b < d:
-                if d < c:
-                    if c < a:
-                        print(a,c,d,b)
-if c < a:
-    if a < b:
-        if b < d:
-            print(d,b,a,c)
+            if secondNumber < fourthNumber:
+                if fourthNumber < thirdNumber:
+                    if thirdNumber < firstNumber:
+                        print(firstNumber,thirdNumber,fourthNumber,secondNumber)
+if thirdNumber < firstNumber:
+    if firstNumber < secondNumber:
+        if secondNumber < fourthNumber:
+            print(fourthNumber,secondNumber,firstNumber,thirdNumber)
         else:
-            if c < a:
-                if a < d:
-                    if d < b:
-                        print(b,d,a,c)
-if c < b:
-    if b < a:
-        if a < d:
-            print(d,a,b,c)
+            if thirdNumber < firstNumber:
+                if firstNumber < fourthNumber:
+                    if fourthNumber < secondNumber:
+                        print(secondNumber,fourthNumber,firstNumber,thirdNumber)
+if thirdNumber < secondNumber:
+    if secondNumber < firstNumber:
+        if firstNumber < fourthNumber:
+            print(fourthNumber,firstNumber,secondNumber,thirdNumber)
         else:
-            if c < b:
-                if b < d:
-                    if d < a:
-                        print(a,d,b,c)
-if c < d:
-    if d < a:
-        if a < b:
-            print(b,a,d,c)
+            if thirdNumber < secondNumber:
+                if secondNumber < fourthNumber:
+                    if fourthNumber < firstNumber:
+                        print(firstNumber,fourthNumber,secondNumber,thirdNumber)
+if thirdNumber < fourthNumber:
+    if fourthNumber < firstNumber:
+        if firstNumber < secondNumber:
+            print(secondNumber,firstNumber,fourthNumber,thirdNumber)
         else:
-            if c < d:
-                if d < b:
-                    if b < a:
-                        print(a,b,d,c)
-if d < a:
-    if a < b:
-        if b < c:
-            print(c,b,a,d)
+            if thirdNumber < fourthNumber:
+                if fourthNumber < secondNumber:
+                    if secondNumber < firstNumber:
+                        print(firstNumber,secondNumber,fourthNumber,thirdNumber)
+if fourthNumber < firstNumber:
+    if firstNumber < secondNumber:
+        if secondNumber < thirdNumber:
+            print(thirdNumber,secondNumber,firstNumber,fourthNumber)
         else:
-            if d < a:
-                if a < c:
-                    if c < b:
-                        print(b,c,a,d)
-if d < b:
-    if b < a:
-        if a < c:
-            print(c,a,b,d)
+            if fourthNumber < firstNumber:
+                if firstNumber < thirdNumber:
+                    if thirdNumber < secondNumber:
+                        print(secondNumber,thirdNumber,firstNumber,fourthNumber)
+if fourthNumber < secondNumber:
+    if secondNumber < firstNumber:
+        if firstNumber < thirdNumber:
+            print(thirdNumber,firstNumber,secondNumber,fourthNumber)
         else:
-            if d < b:
-                if b < c:
-                    if c < a:
-                        print(a,c,b,d)
-if d < c:
-    if c < a:
-        if a < b:
-            print(b,a,c,d)
+            if fourthNumber < secondNumber:
+                if secondNumber < thirdNumber:
+                    if thirdNumber < firstNumber:
+                        print(firstNumber,thirdNumber,secondNumber,fourthNumber)
+if fourthNumber < thirdNumber:
+    if thirdNumber < firstNumber:
+        if firstNumber < secondNumber:
+            print(secondNumber,firstNumber,thirdNumber,fourthNumber)
         else:
-            if d < c:
-                if c < b:
-                    if b < a:
-                        print(a,b,c,d)
-if a == b:
-    if a <= c:
-        if c <= d:
-            print(d,c,b,a)
+            if fourthNumber < thirdNumber:
+                if thirdNumber < secondNumber:
+                    if secondNumber < firstNumber:
+                        print(firstNumber,secondNumber,thirdNumber,fourthNumber)
+if firstNumber == secondNumber:
+    if firstNumber <= thirdNumber:
+        if thirdNumber <= fourthNumber:
+            print(fourthNumber,thirdNumber,secondNumber,firstNumber)
         else:
-            if d <= c:
-                print(c,d,b,a)
+            if fourthNumber <= thirdNumber:
+                print(thirdNumber,fourthNumber,secondNumber,firstNumber)
     else:     
-        if a == b:
-            if c <= a:
-                if a <= d:
-                    print(d,b,a,c)
+        if firstNumber == secondNumber:
+            if thirdNumber <= firstNumber:
+                if firstNumber <= fourthNumber:
+                    print(fourthNumber,secondNumber,firstNumber,thirdNumber)
                 else:
-                    if d <= c:
-                        print(b,a,c,d)         
-if a == c:
-    if a <= b:
-        if b < d:
-            print(d,b,c,a)
+                    if fourthNumber <= thirdNumber:
+                        print(secondNumber,firstNumber,thirdNumber,fourthNumber)         
+if firstNumber == thirdNumber:
+    if firstNumber <= secondNumber:
+        if secondNumber < fourthNumber:
+            print(fourthNumber,secondNumber,thirdNumber,firstNumber)
         else:
-            if d < b:
-                print(b,d,c,a)
+            if fourthNumber < secondNumber:
+                print(secondNumber,fourthNumber,thirdNumber,firstNumber)
     else:
-        if a == c:
-            if b <= a:
-                if a <= d:
-                    print(d,c,a,b)
+        if firstNumber == thirdNumber:
+            if secondNumber <= firstNumber:
+                if firstNumber <= fourthNumber:
+                    print(fourthNumber,thirdNumber,firstNumber,secondNumber)
                 else:
-                    if d <= b:
-                        print(c,a,b,d)
-if a == d:
-    if a < b:
-        if b < c:
-            print(c,b,d,a,)
+                    if fourthNumber <= secondNumber:
+                        print(thirdNumber,firstNumber,secondNumber,fourthNumber)
+if firstNumber == fourthNumber:
+    if firstNumber < secondNumber:
+        if secondNumber < thirdNumber:
+            print(thirdNumber,secondNumber,fourthNumber,firstNumber)
         else:
-            if c < b:
-                print(b,d,a,c)
+            if thirdNumber < secondNumber:
+                print(secondNumber,fourthNumber,firstNumber,thirdNumber)
     else:
-        if b <= a:
-            if a <= c:
-                print(c,d,a,b)
+        if secondNumber <= firstNumber:
+            if firstNumber <= thirdNumber:
+                print(thirdNumber,fourthNumber,firstNumber,secondNumber)
             else:
-                if c <= b:
-                    print(d,a,b,c)
-if b == c:
-    if b <= a:
-        if a < d:
-            print(d,a,c,b)
+                if thirdNumber <= secondNumber:
+                    print(fourthNumber,firstNumber,secondNumber,thirdNumber)
+if secondNumber == thirdNumber:
+    if secondNumber <= firstNumber:
+        if firstNumber < fourthNumber:
+            print(fourthNumber,firstNumber,thirdNumber,secondNumber)
         else:
-            if d < a:
-                print(a,d,c,b)
+            if fourthNumber < firstNumber:
+                print(firstNumber,fourthNumber,thirdNumber,secondNumber)
     else:
-        if a <= b:
-            if b <= d:
-                print(d,c,b,a)
+        if firstNumber <= secondNumber:
+            if secondNumber <= fourthNumber:
+                print(fourthNumber,thirdNumber,secondNumber,firstNumber)
             else:
-                if d <= a:
-                    print(c,b,a,d)
-if b == d:
-    if b <= c:
-        if c < a:
-            print(a,c,d,b)
+                if fourthNumber <= firstNumber:
+                    print(thirdNumber,secondNumber,firstNumber,fourthNumber)
+if secondNumber == fourthNumber:
+    if secondNumber <= thirdNumber:
+        if thirdNumber < firstNumber:
+            print(firstNumber,thirdNumber,fourthNumber,secondNumber)
         else:
-            if a < c:
-                print (c,a,d,b)
+            if firstNumber < thirdNumber:
+                print (thirdNumber,firstNumber,fourthNumber,secondNumber)
     else:
-        if c <= b:
-            if b < a:
-                print(a,d,b,c)
+        if thirdNumber <= secondNumber:
+            if secondNumber < firstNumber:
+                print(firstNumber,fourthNumber,secondNumber,thirdNumber)
             else:
-                if a < c:
-                    print(d,b,c,a)
-if c == d:
-    if c < b:
-        if b < a:
-            print(a,b,d,c)
+                if firstNumber < thirdNumber:
+                    print(fourthNumber,secondNumber,thirdNumber,firstNumber)
+if thirdNumber == fourthNumber:
+    if thirdNumber < secondNumber:
+        if secondNumber < firstNumber:
+            print(firstNumber,secondNumber,fourthNumber,thirdNumber)
         else:
-            if a < b:
-                print(b,a,d,c)
+            if firstNumber < secondNumber:
+                print(secondNumber,firstNumber,fourthNumber,thirdNumber)
     else:
-        if b <= c:
-            if c <= a:
-                print(a,d,c,b)
+        if secondNumber <= thirdNumber:
+            if thirdNumber <= firstNumber:
+                print(firstNumber,fourthNumber,thirdNumber,secondNumber)
             else:
-                if a < b:
-                    print(d,c,b,a)
+                if firstNumber < secondNumber:
+                    print(fourthNumber,thirdNumber,secondNumber,firstNumber)
